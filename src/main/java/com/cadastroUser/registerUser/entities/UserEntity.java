@@ -17,6 +17,8 @@ public class UserEntity {
 	@NotBlank
 	private String name;
 	
+	
+	@NotBlank
 	@Email
 	private String email;
 	
