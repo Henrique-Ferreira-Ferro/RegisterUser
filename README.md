@@ -43,3 +43,47 @@ Requisitos:
 
 ### Como usar a aplicação e seus End-Points?
 
+#### Abaixo as etapas:
+
+1. Baixe o Postman para testar a aplicação
+2. Crie as requisições com base no controller
+
+- Criar um usuario:
+
+```
+    http://localhost:8080/user/create
+```
+
+![image](https://github.com/Henrique-Ferreira-Ferro/RegisterUser/assets/92760541/4c387d65-0fa0-4e4b-9022-010eec716c95)
+
+- Encontrar usuario por ID
+
+```
+    http://localhost:8080/user/1
+```
+
+![image](https://github.com/Henrique-Ferreira-Ferro/RegisterUser/assets/92760541/ddf54f3d-2d9d-4bc9-965f-30f65d26bfee)
+
+- Encontrar todos os Usuarios
+
+```
+    http://localhost:8080/user
+```
+![image](https://github.com/Henrique-Ferreira-Ferro/RegisterUser/assets/92760541/94f19b55-89c2-40ae-97ab-f2355f1b47a3)
+
+- Atualizar usuario por ID
+
+```
+    http://localhost:8080/update/2
+```
+
+![image](https://github.com/Henrique-Ferreira-Ferro/RegisterUser/assets/92760541/59d4913e-e4d1-4b94-af05-cee8735a5f32)
+
+- Deleter usuario por ID
+
+```
+    http://localhost:8080/user/2
+```
+
+![image](https://github.com/Henrique-Ferreira-Ferro/RegisterUser/assets/92760541/98c58dbe-5caf-46a1-bd1e-e3f04ad3d035)
+
